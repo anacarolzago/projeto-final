@@ -1,0 +1,11 @@
+.header {
+  background-color: #dcccb5;  
+  align-items: center;
+  margin: auto;
+  background-size: cover;
+  overflow: hidden;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.2);
+}
+
+
+
