@@ -3,7 +3,7 @@ import Header from '../../components/Header/Header'
 import Main from '../../components/Main/Main'
 import Footer from '../../components/Footer/Footer'
 
-import ImageBanner__ from '../../assets/cha_verde.png'
+import ImageBanner__ from '../../assets/kombucha5.jpg'
 
 import './home.styles.css'
 
