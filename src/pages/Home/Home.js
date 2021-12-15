@@ -3,20 +3,19 @@ import Header from '../../components/Header/Header'
 import Main from '../../components/Main/Main'
 import Footer from '../../components/Footer/Footer'
 
-import ImageBanner__ from '../../assets/kombucha5.jpg'
-
 import './home.styles.css'
 
 const Home = () => {
     return (
         <>
             <Menu />
-            <Header image={ImageBanner__}></Header>
+            <Header title='Kombucha' />
             <Main>
                 <article>
                     <h2>Quer fazer kombucha em casa mas não sabe por onde começar? Venha conhecer este lugar incrível</h2>
                     <p>A kombucha é uma bebida fermentada consumida há milhares de anos. Ela é produzida a partir de uma colônia de bactérias e leveduras probióticas chamada de scoby (Symbiotic Colony of Bacteria and Yeast, em inglês, ou Colônia Simbiótica de Bactérias e Leveuras).</p>
                     <p>Alternativa saborosa a bebidas gaseificadas prejudiciais à saúde, como os refrigerantes, a kombucha é uma escolha cada vez mais popular, porque é rica em microrganismos que fazem bem à flora intestinal e vitaminas que fortalecem o sistema imunológico. Além disso, ainda facilita a absorção de nutrientes. Confira outros benefícios da kombucha.</p>
+                    {/* <img src={props.image} alt="oi" /> */}
                 </article>
                 <article>
                     <h3>1. É fonte de probióticos</h3>

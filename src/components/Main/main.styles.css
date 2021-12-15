@@ -3,9 +3,7 @@
     margin: auto;
     margin-bottom: 65px;
     padding: 0 30px;
-    /* background-color: #92aa5c; */
-    /* background-color: #c2b999; */
-    background-image: linear-gradient(0deg, #c7d2a8 8%, #a3c3a3 76%);
+    background-color: #dcccb5;  
     color: #137713;
     min-height: 800px;
 }

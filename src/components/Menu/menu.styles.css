@@ -6,6 +6,7 @@
     color: #a82476;
     font-size: 17px; 
     width: 100%;
+    height: 40px;
     padding: 10px;
     position: fixed;
     display: flex;
@@ -13,9 +14,7 @@
     align-items: center;
     box-shadow: 0 2px 4px 0 #00000033;
     overflow: hidden;
-
-    /* opacity: 0.9; */
-    /* border: 2px solid red; */
+    letter-spacing: 0.1rem;
 }
 
 h1 {
@@ -42,7 +41,7 @@ h1 {
 .link {
     font-size: 17px;
     color: #5d7861;
-    padding: 7px 10px 9px 13px;
+    padding: 7px 13px 9px 13px;
     margin-right: 20px;
     text-decoration: none;
     border-radius: 40px;
