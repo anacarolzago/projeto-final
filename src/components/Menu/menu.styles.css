@@ -1,45 +1,25 @@
 .navMenu {
-    /* background-color: #c8f0a1; */
-    /* background-color: #b8d49d; */
-    /* background-color: #b7c292; */
     background-color: #c7daa7;
-    color: #a82476;
+    /* color: #a82476; */
     font-size: 17px; 
     width: 100%;
-    height: 40px;
+    height: 45px;
     padding: 10px;
     position: fixed;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
     box-shadow: 0 2px 4px 0 #00000033;
     overflow: hidden;
     letter-spacing: 0.1rem;
-}
-
-h1 {
-    height: auto;
-    flex-direction: row;
-    justify-content: center;
-    text-shadow: -3px 2px 6px #3f587087;
-}
-
-.navMenu h1 span {
-    margin-left: 130px;
-    color: #2e7b7f;
-    font-size: 30px;
-    letter-spacing: 1px;
 }
 
 .navBar {
     display: flex;
     flex-direction: row;
     align-items: center;
-    margin-left: 80px;
 }
 
 .link {
-    font-size: 17px;
     color: #5d7861;
     padding: 7px 13px 9px 13px;
     margin-right: 20px;
@@ -56,7 +36,6 @@ ul li {
 }
 
 .navBar a:hover {
-    /* background-color: #816e60; */
     background-color: #2e7b7f;
     font-size: 19px;
     opacity: 0.7;

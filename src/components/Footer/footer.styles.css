@@ -58,7 +58,7 @@ footer h4 span {
     letter-spacing: 0.7px;
 }
 
-
+/* 
 @media (min-width: 350px) {
     .rodape {
         background-color: green;
@@ -110,13 +110,13 @@ footer h4 span {
         display: none;
     }
 
-    /* .div_h4_footer {
+    .div_h4_footer {
         padding-left: 9px;
         justify-content: flex-start;
         margin-top: -162px;
 
         border: 1px solid red;
-    } */
+    }
 }
 
 @media (min-width: 992px) {
@@ -134,4 +134,4 @@ footer h4 span {
         background-color: goldenrod;
     }
 }
-
+ */

@@ -1,7 +1,7 @@
 import { BrowserRouter, Route, Switch } from 'react-router-dom'
 
 import Home from '../pages/Home/Home'
-import Doacao from '../pages/Doacao/Doacao'
+import Beneficios from '../pages/Beneficios/Beneficios'
 import Doar from '../pages/Doar/Doar'
 import Perguntas from '../pages/Perguntas/Perguntas'
 
@@ -10,7 +10,7 @@ function Rotas() {
       <BrowserRouter>
         <Switch>
           <Route path="/" exact component={Home} />                
-          <Route path="/doacao" component={Doacao} /> 
+          <Route path="/beneficios" component={Beneficios} /> 
           <Route path="/doar" component={Doar} /> 
           <Route path="/perguntas" component={Perguntas} />        
         </Switch>  
