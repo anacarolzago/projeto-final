@@ -4,7 +4,8 @@ import Main from '../../components/Main/Main'
 import Footer from '../../components/Footer/Footer'
 
 import './home.styles.css'
-// import Image2 from '../../assets/cha_verde2.png'
+import Image1 from '../../assets/kombucha7.jpg'
+import Image2 from '../../assets/cha2.jpg'
 
 const Home = () => {
     return (
@@ -13,23 +14,22 @@ const Home = () => {
             <Header title='Kombucha' />
             <Main>
                 <div className='container'>
-                    <article>
-                        <h2>Quer fazer kombucha em casa mas não sabe por onde começar? </h2>
-
-                        <p>A kombucha é uma bebida fermentada consumida há milhares de anos. Produzida a partir de uma colônia de bactérias e leveduras probióticas chamada de scoby (Symbiotic Colony of Bacteria and Yeast, em inglês, ou Colônia Simbiótica de Bactérias e Leveuras).</p>
-
+                    <article className='bloco1'>
+                        <h2>Kombucha</h2>
+                        <p>A Kombucha é uma bebida fermentada consumida há milhares de anos. Produzida a partir de uma colônia de bactérias e leveduras probióticas chamada de scoby (Symbiotic Colony of Bacteria and Yeast, em inglês, ou Colônia Simbiótica de Bactérias e Leveuras).</p>
                         <p>Alternativa saborosa a bebidas gaseificadas prejudiciais à saúde, como os refrigerantes, a kombucha é uma escolha cada vez mais popular, porque é rica em microrganismos que fazem bem à flora intestinal e vitaminas que fortalecem o sistema imunológico. Além disso, ainda facilita a absorção de nutrientes.</p>
-                        {/* <img src={Image2} alt="oi" /> */}
                     </article>
+                    <img className='img_bloco1' src={Image1} alt="imagem de kombucha" />
                 </div>
-
                 <div className='container'>
-                    <article>
+                    <article className='bloco2'>
                         <h2>Como preparar a Kombucha?</h2>
+                        <img className='img_bloco2' src={Image2} alt="oi" />
                         
                         <p>A Kombucha é uma bebida feita a partir da fermentação do chá por uma cultura de bactérias e leveduras. Para o preparo, pode-se usar qualquer tipo de chá da planta camelia sinensis,  como o chá branco, o chá verde e o chá preto.</p>
-                       
+                    </article>   
 
+                    <article className='bloco3'>
                         <h3>Você irá precisar de:</h3>
 
                         <p>Chá e scoby que foi doado</p>
@@ -39,7 +39,9 @@ const Home = () => {
                         <p>1 pote de vidro grande (tipo aqueles de palmito)</p>
                         <p>Papel toalha</p>
                         <p>Elástico</p>
+                    </article>
 
+                    <article className='bloco3'>
                         <h3>Modo de Preparo para a primeira fermentação (F1)</h3>
 
                         <p>Ferver a água</p>
@@ -54,7 +56,9 @@ const Home = () => {
                         <p>Deixar o pote parado e sem mexer durante alguns dias, de 12 à 15 dias, dependendo do local onde mora, pois a temperatura do hambiente interfere na produção dos microorganismos.</p>
                         <p>Após essa primeira fermentação que chamamos de F1, a sua bebida já está pronta para ser consumida</p>
                         <p>Antes de consumir, retirar 10% do chá fermentado, o antigo e o novo scoby que se formou, para poder refazer o processo.</p>
+                    </article>
 
+                    <article className='bloco4'>
                         <h3>Modo de Preparo para a segunda fermentação (F2)</h3>
 
                         <p>20% de suco natural da sua preferência</p>
@@ -62,7 +66,7 @@ const Home = () => {
                         <p>Colocar em garrafas pet deixando 3 dedos de espaço</p>
                         <p>Deixar as garrafas descansarem por 4 dias</p>
                         <p>Refrigerar a bebida e tomar de preferência bem gelada</p>
-                </article> 
+                    </article> 
                 </div>         
             </Main>
             <Footer />

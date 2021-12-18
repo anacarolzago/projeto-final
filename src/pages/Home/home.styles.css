@@ -7,9 +7,39 @@
     box-shadow: 0 2px 4px 0 #00000033;
     text-align: justify;
     border-radius: 3px;
+    display: flex;
 }
 
 h2, h3 {
     color: #222146;
     padding-bottom: 20px;
+}
+
+article {
+    padding: 15px;
+    margin: 10px 0;
+    overflow: hidden;
+}
+
+.bloco1 {
+    margin-right: 50px;
+}
+
+.img_bloco1 {
+    width: 40%;
+    margin-top: 25px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 4px #0000001a;
+}
+
+.bloco2 {
+    display: flex;
+}
+
+.img_bloco2 {
+    width: 30%;
+}
+
+.bloco3, .bloco4 {
+    display:inline-block;
 }
