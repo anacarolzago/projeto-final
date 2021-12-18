@@ -1,4 +1,4 @@
-.container {
+.container1, .container2 {
     background-color: white;
     margin: 20px 10px;
     padding: 25px 30px;
@@ -7,6 +7,9 @@
     box-shadow: 0 2px 4px 0 #00000033;
     text-align: justify;
     border-radius: 3px;
+}
+
+.container1 {
     display: flex;
 }
 
@@ -34,12 +37,24 @@ article {
 
 .bloco2 {
     display: flex;
+    align-items: center;
 }
 
 .img_bloco2 {
-    width: 30%;
+    width: 50%;
+    margin-left: 35px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 4px #0000001a;
 }
 
-.bloco3, .bloco4 {
-    display:inline-block;
+.bloco2 h2 {
+    padding-left: 120px;
+}
+
+.img_bloco3, .img_bloco4 {
+    width: 50%;
+    margin-left: 25%;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px 4px #0000001a;
 }
