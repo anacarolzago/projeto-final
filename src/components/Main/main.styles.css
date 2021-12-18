@@ -1,16 +1,15 @@
 .corpo {
+    background-color: #3e6661;
     width: 90%;
-    margin: auto;
-    margin-bottom: 65px;
-    margin-top: 35px;
-    padding: 0 30px;
+    margin: 35px;
+    padding: 35px;
     min-height: 800px;
     line-height: 1.6;
     word-spacing: 4px;
     letter-spacing: 0.1px;
     text-align: justify;
-    background-color: #f0eecc;
-    box-shadow: 0 2px 4px 0 #00000033;
-
-    border: 1px solid red;
+    box-shadow: 0px 1px 10px 8px rgba(18, 18, 18, 0.1);
+    align-items: center;
+    justify-content: center;
+    border-radius: 3px;
 }

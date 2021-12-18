@@ -4,7 +4,7 @@ import Main from '../../components/Main/Main'
 import Footer from '../../components/Footer/Footer'
 
 import './home.styles.css'
-import Image2 from '../../assets/cha_verde2.png'
+// import Image2 from '../../assets/cha_verde2.png'
 
 const Home = () => {
     return (
@@ -19,7 +19,7 @@ const Home = () => {
                         <p>A kombucha é uma bebida fermentada consumida há milhares de anos. Produzida a partir de uma colônia de bactérias e leveduras probióticas chamada de scoby (Symbiotic Colony of Bacteria and Yeast, em inglês, ou Colônia Simbiótica de Bactérias e Leveuras).</p>
 
                         <p>Alternativa saborosa a bebidas gaseificadas prejudiciais à saúde, como os refrigerantes, a kombucha é uma escolha cada vez mais popular, porque é rica em microrganismos que fazem bem à flora intestinal e vitaminas que fortalecem o sistema imunológico. Além disso, ainda facilita a absorção de nutrientes.</p>
-                        <img src={Image2} alt="oi" />
+                        {/* <img src={Image2} alt="oi" /> */}
                     </article>
                 </div>
 

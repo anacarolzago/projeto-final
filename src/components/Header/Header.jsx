@@ -1,10 +1,10 @@
 import './header.styles.css'
 
-const Header = (props) => {
+const Header = () => {
     return(
         <>
             <div className="header">
-                <h1>oi</h1>           
+                <h1><span>Kombucha</span>Lover's</h1>
             </div>
         </>
     )
