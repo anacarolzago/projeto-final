@@ -1,5 +1,5 @@
 .container {
-    background-color: white;
+    background-color: #fff;
     margin: 20px 10px;
     padding: 25px 30px;
     font-size: 15px;
@@ -7,9 +7,15 @@
     box-shadow: 0 2px 4px 0 #00000033;
     text-align: justify;
     border-radius: 3px;
+    color: #222146;
 }
 
-h2, h3 {
-    color: #222146;
+h2 {
     padding-bottom: 20px;
+}
+
+.p_perguntas {
+    font-size: 18px;
+    margin: 80px 50px 30px 50px;
+    text-align: center;
 }
