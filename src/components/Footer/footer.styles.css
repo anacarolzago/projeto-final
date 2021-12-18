@@ -56,6 +56,14 @@ footer h3 span {
     margin-top: 55px;
 }
 
+.links_footer_contato {
+    margin-top: 80px;
+}
+
+.links_footer_contato li {
+    padding-bottom: 15px;
+}
+
 .rodape_p p {
     font-size: 16px;
     color: #fff;
