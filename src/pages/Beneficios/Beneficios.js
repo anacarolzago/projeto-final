@@ -4,6 +4,8 @@ import Main from '../../components/Main/Main'
 import Footer from '../../components/Footer/Footer'
 
 import './beneficios.styles.css'
+import Image5 from '../../assets/cha_verde.png'
+import Image6 from '../../assets/kombucha5.jpg'
 
 const Beneficios = () => {
     return (
@@ -14,19 +16,15 @@ const Beneficios = () => {
                 <div className='container'>
                     <article className='artigoBeneficios'>
                         <h3>É fonte de probióticos</h3>
-
                         <p>A preparação consiste em adicionar cepas específicas de bactérias, leveduras e açúcar ao chá preto ou verde e deixar fermentar por uma semana ou mais. Durante esse processo, bactérias e leveduras formam uma película na superfície do líquido, também chamado de SCOBY.</p>
-
                         <p>Os probióticos fornecem bactérias saudáveis para o intestino, podendo melhorar muitos aspectos da saúde, incluindo digestão, inflamação e até perda de peso. Por esse motivo, adicionar bebidas como kombucha à dieta pode melhorar a saúde de várias maneiras.</p>
                     </article>
-
                     <article className='artigoBeneficios'>
                         <h3>Benefícios do chá verde</h3>
-
                         <p>O chá verde é uma das bebidas mais saudáveis do planeta, pois ele contém compostos bioativos, como os polifenóis, que funcionam como poderosos antioxidantes no organismo</p>
                         <p>Estudos mostram que beber chá verde regularmente pode aumentar o número de calorias que você queima, reduzir a gordura da barriga, melhorar os níveis de colesterol, ajudar no controle do açúcar no sangue e muito mais. Outras pesquisas ainda mostram que quem consome chá verde têm um risco reduzido de câncer de próstata, mama e cólon.</p>
                     </article>
-
+                    <img className='img_bloco5' src={Image5} alt="tipos diferentes de cha verde" /> 
                     <article className='artigoBeneficios'>
                         <h3>É rica em antioxidantes e melhora a imunidade</h3>
 
@@ -36,19 +34,17 @@ const Beneficios = () => {
                         <p>A kombucha feita com chá preto ou verde tem propriedades antibacterianas e antifúngicas, particularmente contra os fungos causadores da candidíase</p>
                         <p>Esses efeitos antimicrobianos suprimem o crescimento de bactérias e leveduras indesejáveis, mas não afetam as bactérias probióticas benéficas e leveduras envolvidas na fermentação da kombucha.</p>
                     </article>
-
                     <article className='artigoBeneficios'>
                         <h3>Reduz o risco de doença cardíaca</h3>
 
                         <p>Estudos em ratos mostraram que a kombucha pode melhorar muito dois marcadores de doenças cardíacas, LDL “ruim” e colesterol HDL “bom”, em apenas 30 dias. Ainda mais importante, o chá (especialmente o chá verde) protege as partículas de colesterol LDL da oxidação, que, acredita-se, contribui para prevenir doenças cardíacas.</p>
                     </article>
-
+                    <img className='img_bloco5' src={Image6} alt="imagem de kombucha" /> 
                     <article className='artigoBeneficios'>
                         <h3>Kombucha também ajuda a gerenciar diabetes tipo 2</h3>
 
                         <p>A diabetes tipo 2 afeta mais de 300 milhões de pessoas em todo o mundo. É caracterizada por altos níveis de açúcar no sangue e resistência à insulina. É provável que a kombucha feita com chá verde seja ainda mais benéfica, pois o chá verde reduz os níveis de açúcar no sangue</p>
                     </article>
-
                     <article className='artigoBeneficios'>
                         <h3>Kombucha protege contra o câncer</h3>
 
